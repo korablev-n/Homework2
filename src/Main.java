@@ -47,5 +47,43 @@ public class Main {
         var newWorker = worker + 94;
         var newAllWorkTime = newWorker * oneWorkTime;
         System.out.println("Если в компании работает " + newWorker + " человека, то всего " + newAllWorkTime + " часа работы может быть поделено между сотрудниками");
+
+        byte b = 1;
+        System.out.println("Значение переменной b с типом byte равно " + b);
+        int i = 1;
+        System.out.println("Значение переменной i с типом int равно " + i);
+        short s = 1;
+        System.out.println("Значение переменной s с типом short равно " + s);
+        long l = 1L;
+        System.out.println("Значение переменной l с типом long равно " + l);
+        float f = 1.1f;
+        System.out.println("Значение переменной f с типом float равно " + f);
+        double d = 1.1;
+        System.out.println("Значение переменной d с типом double равно " + d);
+        float f1 = 27.12f;
+        long l1 = 987678965549L;
+        float f2 = 2.786f;
+        short s1 = 569;
+        short s2 = -159;
+        short s3 = 27897;
+        byte b1 = 67;
+        byte ludmilaPavlovna = 23;
+        byte annaSergeevna = 27;
+        byte ekaterinaAndreevna = 30;
+        int allSheet = 480;
+        int student1 = allSheet / (ludmilaPavlovna + annaSergeevna + ekaterinaAndreevna);
+        System.out.println("На каждого ученика рассчитано " + student1 + " листов бумаги");
+        byte minute2 = 16;
+        int minute1 = minute2 / 2;
+        int bottles20minute = minute1 * 20;
+        System.out.println("За 20 минут машина произвела " + bottles20minute + " штук бутылок");
+        int hour = minute1 * 60;
+        System.out.println("За 1 час машина произвела " + hour + " штук бутылок");
+        int day = hour * 24;
+        int day3 = day * 3;
+        System.out.println("За 3 дня машина произвела " + day3 + " штук бутылок");
+        int month = day * 30;
+        System.out.println("За 1 месяц машина произвела " + month + " штук бутылок");
+
     }
 }
