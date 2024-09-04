@@ -105,8 +105,9 @@ public class Main {
         int allIceCream = weightIceCream * 2;
         byte egg = 70;
         int allEggs = egg * 4;
-        float cocktail = allEggs + allIceCream + allMilk + allBanans;
-        float cocktailInKg = cocktail / 1000;
+        int cocktail = allEggs + allIceCream + allMilk + allBanans;
+        int grPerKg = 1000;
+        float cocktailInKg = cocktail / (float)grPerKg;
         System.out.println("Вес завтрака " + cocktail + " или " + cocktailInKg + " кг");
         // Задача 7
         int weight1 = 250;
