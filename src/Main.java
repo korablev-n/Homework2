@@ -60,6 +60,7 @@ public class Main {
         System.out.println("Значение переменной f с типом float равно " + f);
         double d = 1.1;
         System.out.println("Значение переменной d с типом double равно " + d);
+        // Задача 2
         float f1 = 27.12f;
         long l1 = 987678965549L;
         float f2 = 2.786f;
@@ -67,12 +68,14 @@ public class Main {
         short s2 = -159;
         short s3 = 27897;
         byte b1 = 67;
+        // Задача 3
         byte ludmilaPavlovna = 23;
         byte annaSergeevna = 27;
         byte ekaterinaAndreevna = 30;
         int allSheet = 480;
         int student1 = allSheet / (ludmilaPavlovna + annaSergeevna + ekaterinaAndreevna);
         System.out.println("На каждого ученика рассчитано " + student1 + " листов бумаги");
+        // Задача 4
         byte minute2 = 16;
         int minute1 = minute2 / 2;
         int bottles20minute = minute1 * 20;
@@ -84,6 +87,7 @@ public class Main {
         System.out.println("За 3 дня машина произвела " + day3 + " штук бутылок");
         int month = day * 30;
         System.out.println("За 1 месяц машина произвела " + month + " штук бутылок");
+        // Задача 5
         byte allJar = 120;
         byte whiteJarFor1Class = 2;
         byte brownJarFor1Class = 4;
@@ -92,6 +96,7 @@ public class Main {
         int allWhite = allClass * whiteJarFor1Class;
         int allBrown = allClass * brownJarFor1Class;
         System.out.println("В школе, где " + jarFor1Class + " классов, нужно " + allWhite + " банок белой краски и " + allBrown + " банок коричневой краски");
+        // Задача 6
         byte weight1Banan = 80;
         int allBanans = 5 * weight1Banan;
         byte weight100Milk = 105;
@@ -103,6 +108,27 @@ public class Main {
         float cocktail = allEggs + allIceCream + allMilk + allBanans;
         float cocktailInKg = cocktail / 1000;
         System.out.println("Вес завтрака " + cocktail + " или " + cocktailInKg + " кг");
+        // Задача 7
+        int weight1 = 250;
+        int weight2 = 500;
+        int allweight = 7000;
+        int diet1 = allweight / weight1;
+        int diet2 = allweight / weight2;
+        System.out.println("Если спортсмен будет терять каждый день по " + weight1 + " грамм, на похудение уйдет " + diet1 + " дней");
+        System.out.println("Если спортсмен будет терять каждый день по " + weight2 + " грамм, на похудение уйдет " + diet2 + " дней");
+        // Задача 8
+        int masha = 67760;
+        int denis = 83690;
+        int kristina = 76230;
+        double mashaUp = masha + masha * 0.1;
+        double denisUp = denis + denis * 0.1;
+        double kristinaUp = kristina + kristina * 0.1;
+        double dohodMasha = mashaUp - masha;
+        double dohodDenis = denisUp - denis;
+        double dohodKristina = kristinaUp - kristina;
+        System.out.println("Маша теперь получает " + mashaUp + " рублей. Годовой доход вырос на " + dohodMasha + " рублей");
+        System.out.println("Денис теперь получает " + denisUp + " рублей. Годовой доход вырос на " + dohodDenis + " рублей");
+        System.out.println("Кристина теперь получает " + kristinaUp + " рублей. Годовой доход вырос на " + dohodKristina + " рублей");
 
 
     }
