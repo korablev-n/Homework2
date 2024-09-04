@@ -84,6 +84,26 @@ public class Main {
         System.out.println("За 3 дня машина произвела " + day3 + " штук бутылок");
         int month = day * 30;
         System.out.println("За 1 месяц машина произвела " + month + " штук бутылок");
+        byte allJar = 120;
+        byte whiteJarFor1Class = 2;
+        byte brownJarFor1Class = 4;
+        int jarFor1Class = 6;
+        int allClass = allJar / jarFor1Class;
+        int allWhite = allClass * whiteJarFor1Class;
+        int allBrown = allClass * brownJarFor1Class;
+        System.out.println("В школе, где " + jarFor1Class + " классов, нужно " + allWhite + " банок белой краски и " + allBrown + " банок коричневой краски");
+        byte weight1Banan = 80;
+        int allBanans = 5 * weight1Banan;
+        byte weight100Milk = 105;
+        int allMilk = 2 * weight100Milk;
+        byte weightIceCream = 100;
+        int allIceCream = weightIceCream * 2;
+        byte egg = 70;
+        int allEggs = egg * 4;
+        float cocktail = allEggs + allIceCream + allMilk + allBanans;
+        float cocktailInKg = cocktail / 1000;
+        System.out.println("Вес завтрака " + cocktail + " или " + cocktailInKg + " кг");
+
 
     }
 }
